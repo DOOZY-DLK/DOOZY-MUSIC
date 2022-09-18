@@ -34,10 +34,7 @@ async def _human_time_duration(seconds):
 async def start_(client: Client, message: Message):
     await message.reply_photo(
         photo=f"{START_IMAGE}",
-        caption=f"""**━━━━━━━━━━━━━━━━━━━━━━━━
-💥 Hello......
-I am Playing Music Songs in Telegram Video Chat.❤️
-━━━━━━━━━━━━━━━━━━━━━━━━**""",
+        caption=f"""**💥Hello. I am Playing Music Songs in Telegram Video Chat.❤️**""",
     reply_markup=InlineKeyboardMarkup(
             [
                 [
